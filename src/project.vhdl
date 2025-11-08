@@ -61,17 +61,3 @@ begin
 
 end Behavioral;
 
--- int main()
--- {
-	-- static uint8_t s = 2, a = 0;
--- 
-	-- for(unsigned long i=0;;i++)
-	-- {
--- 
-		-- s ^= s << 3;
-		-- s ^= s >> 5;
-		-- s ^= a++ >> 2;
--- 
-		-- printf("%i\n", s);
-	-- }
---}
